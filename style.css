@@ -159,9 +159,55 @@ nav {
 }
 
 .feature-grid,
-.content-section {
+.content-section,
+.poster-grid {
   display: grid;
   gap: 1.5rem;
+}
+
+.poster-grid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.poster-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  align-items: flex-start;
+}
+
+.poster-icon {
+  font-size: 1.7rem;
+  line-height: 1;
+  margin-top: 0.1rem;
+}
+
+.poster-info a {
+  color: inherit;
+}
+
+.poster-info a:hover .poster-title {
+  color: var(--accent);
+}
+
+.poster-venue {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+
+.poster-title {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.45;
 }
 
 .keyword-section {
