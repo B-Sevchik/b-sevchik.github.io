@@ -84,7 +84,7 @@ nav {
 
 .hero-section,
 .page-content > section {
-  padding: 4rem 0;
+  padding: 2.5rem 0;
 }
 
 .hero-section {
@@ -96,7 +96,7 @@ nav {
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 1.75rem auto 0;
+  margin: 0.75rem auto 0;
   display: block;
   border: 4px solid rgba(37, 99, 235, 0.16);
 }
@@ -119,7 +119,7 @@ nav {
 .hero-text,
 .intro {
   max-width: 730px;
-  margin: 1.5rem auto 0;
+  margin: 0.75rem auto 0;
   color: var(--muted);
   font-size: 1.05rem;
 }
@@ -165,7 +165,7 @@ nav {
 }
 
 .keyword-section {
-  padding: 3rem 0 4rem;
+  padding: 1rem 0 2.5rem;
 }
 
 .keyword-list {
@@ -190,7 +190,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin-top: 6rem;
+  margin-top: 3.5rem;
 }
 
 .nav-boxes a {
