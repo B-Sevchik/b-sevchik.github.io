@@ -186,6 +186,35 @@ nav {
   border: 1px solid rgba(37, 99, 235, 0.16);
 }
 
+.nav-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 6rem;
+}
+
+.nav-boxes a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  padding: 0.85rem 1.2rem;
+  border-radius: 999px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: var(--text);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.nav-boxes a:hover {
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
 .feature-grid {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   margin-top: 2.5rem;
