@@ -87,6 +87,11 @@ nav {
   padding: 2.5rem 0;
 }
 
+/* Reduce spacing between consecutive sections inside page-content to match Research layout */
+.page-content > section + section {
+  padding-top: 1rem;
+}
+
 .hero-section {
   text-align: center;
   background: #e7edf5;
@@ -250,7 +255,7 @@ nav {
 
 .poster-grid {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  margin-top: 1.5rem;
+  margin-top: 0.6rem;
 }
 
 .poster-card {
