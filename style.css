@@ -362,6 +362,11 @@ nav {
   font-size: 1.1rem;
 }
 
+/* Title-only cards (no description) don't need space under the title */
+.card h2:last-child {
+  margin-bottom: 0;
+}
+
 .project-logo {
   display: block;
   float: left;
